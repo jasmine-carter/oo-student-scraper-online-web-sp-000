@@ -41,7 +41,7 @@ class Student
       if  key == :twitter
         @twitter = value
       elsif key == :linkedin
-        @linkedin == value
+        @linkedin = value
       elsif key == :github
         @github = value
       elsif key == :blog
