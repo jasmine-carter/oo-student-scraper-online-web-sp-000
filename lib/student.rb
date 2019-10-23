@@ -14,8 +14,16 @@ class Student
         @twitter = value
       elsif key == :linkedin
         @linkedin == value
-      else key == :github
+      elsif key == :github
         @github = value
+      elsif key == :blog
+        @blog = value
+      elsif key == :profile_quote
+        @profile_quote = value
+      elsif key == :bio
+        @bio = value
+      else :profile_url
+        @profile_url = value
       end
     end
     @@all << self
