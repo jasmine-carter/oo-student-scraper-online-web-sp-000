@@ -16,7 +16,7 @@ class Student
       @linkedin == value
     else key == :github
       @github = value
-    end  
+    end
   end
 
   def self.create_from_collection(students_array)
