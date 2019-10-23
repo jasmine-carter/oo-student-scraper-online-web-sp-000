@@ -8,22 +8,8 @@ class Student
     student_hash.each do |key, value|
       if key == :name
         @name = value
-      elsif key == :location
+      else key == :location
         @location = value
-      elsif  key == :twitter
-        @twitter = value
-      elsif key == :linkedin
-        @linkedin == value
-      elsif key == :github
-        @github = value
-      elsif key == :blog
-        @blog = value
-      elsif key == :profile_quote
-        @profile_quote = value
-      elsif key == :bio
-        @bio = value
-      else :profile_url
-        @profile_url = value
       end
     end
     @@all << self
