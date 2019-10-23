@@ -30,11 +30,11 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    #for each student in the array, retrieve the name and location k v pair and assign 
+    #for each student in the array, retrieve the name and location k v pair and assign
     students_array.each do |student|
       new_student = Student.new(student)
     end
-        
+
   end
 
   def add_student_attributes(attributes_hash)
