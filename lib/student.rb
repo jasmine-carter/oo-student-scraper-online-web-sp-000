@@ -6,16 +6,17 @@ class Student
 
   def initialize(student_hash)
     student_hash.each do |key, value|
-    if key == :name
-      @name = value
-    elsif key == :location
-      @location = value
-    elsif  key == :twitter
-      @twitter = value
-    elsif key == :linkedin
-      @linkedin == value
-    else key == :github
-      @github = value
+      if key == :name
+        @name = value
+      elsif key == :location
+        @location = value
+      elsif  key == :twitter
+        @twitter = value
+      elsif key == :linkedin
+        @linkedin == value
+      else key == :github
+        @github = value
+      end
     end
   end
 
