@@ -18,7 +18,7 @@ class Student
         @github = value
       end
     end
-    @@all >> self
+    @@all << self
   end
 
   def self.create_from_collection(students_array)
