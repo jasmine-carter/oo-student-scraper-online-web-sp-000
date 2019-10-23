@@ -40,6 +40,8 @@ class Student
     attributes_hash.each do |key, value|
       if key == :bio
         @bio = value
+      elsif key == :blog
+        @blog == value  
       end
     end
   end
