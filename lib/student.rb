@@ -41,7 +41,7 @@ class Student
       if key == :bio
         @bio = value
       else key == :blog
-        @blog == value
+        @blog = value
       end
     end
   end
