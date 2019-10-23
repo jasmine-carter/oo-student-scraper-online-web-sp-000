@@ -38,20 +38,20 @@ class Student
 
   def add_student_attributes(attributes_hash)
     attributes_hash.each do |key, value|
-    if  key == :twitter
-      @twitter = value
-    elsif key == :linkedin
-      @linkedin == value
-    elsif key == :github
-      @github = value
-    elsif key == :blog
-      @blog = value
-    elsif key == :profile_quote
-      @profile_quote = value
-    elsif key == :bio
-      @bio = value
-    else :profile_url
-      @profile_url = value
+      if  key == :twitter
+        @twitter = value
+      elsif key == :linkedin
+        @linkedin == value
+      elsif key == :github
+        @github = value
+      elsif key == :blog
+        @blog = value
+      elsif key == :profile_quote
+        @profile_quote = value
+      elsif key == :bio
+        @bio = value
+      else :profile_url
+        @profile_url = value
       end
     end
   end
